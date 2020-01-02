@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4932C98A2226620600EE3398 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C9892226620600EE3398 /* AlertView.swift */; };
+		4932C98D2226785800EE3398 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C98C2226785800EE3398 /* SearchViewController.swift */; };
+		4932C98F22267A7200EE3398 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C98E22267A7200EE3398 /* SearchTableViewCell.swift */; };
+		4932C9912226850800EE3398 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C9902226850800EE3398 /* User.swift */; };
+		4932C993222698DB00EE3398 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C992222698DB00EE3398 /* ProfileViewController.swift */; };
+		4932C9972227E1A700EE3398 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C9962227E1A700EE3398 /* SettingsTableViewController.swift */; };
+		4932C9992227E1D300EE3398 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C9982227E1D300EE3398 /* ResetPasswordViewController.swift */; };
+		4932C99B2227E4A900EE3398 /* FollowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C99A2227E4A900EE3398 /* FollowTableViewController.swift */; };
+		4932C99E2227E55900EE3398 /* FollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932C99D2227E55900EE3398 /* FollowTableViewCell.swift */; };
+		4935FB3D2238E47C0053D9ED /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935FB3C2238E47C0053D9ED /* CameraViewController.swift */; };
+		4935FB3F2238EAC40053D9ED /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935FB3E2238EAC40053D9ED /* ComposeViewController.swift */; };
+		4935FB412239E7A40053D9ED /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4935FB402239E7A40053D9ED /* meow.wav */; };
+		4935FB44223A308F0053D9ED /* LikerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935FB42223A308F0053D9ED /* LikerTableViewCell.swift */; };
+		4935FB45223A308F0053D9ED /* LikerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935FB43223A308F0053D9ED /* LikerTableViewController.swift */; };
+		4935FB47223A48950053D9ED /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935FB46223A48950053D9ED /* Comment.swift */; };
+		4935FB4B223A5E2D0053D9ED /* GXUpvoteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935FB4A223A5E2D0053D9ED /* GXUpvoteButton.m */; };
+		493C504822254A1D000790D8 /* ExploreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C504722254A1D000790D8 /* ExploreCollectionViewController.swift */; };
+		493C504A22254A43000790D8 /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C504922254A43000790D8 /* ExploreCollectionViewCell.swift */; };
+		494272172255FA9C009FB3FE /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494272162255FA9C009FB3FE /* Like.swift */; };
+		4985A94F222D6EBB00E3EB40 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985A94E222D6EBB00E3EB40 /* ChatViewController.swift */; };
+		4985A951222D707100E3EB40 /* ChatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985A950222D707100E3EB40 /* ChatsTableViewController.swift */; };
+		4985A954222D757300E3EB40 /* ChatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985A953222D757300E3EB40 /* ChatsTableViewCell.swift */; };
+		4985A956222D76F500E3EB40 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985A955222D76F500E3EB40 /* DateExtension.swift */; };
+		4985A958222E62E600E3EB40 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985A957222E62E600E3EB40 /* Emoji.swift */; };
+		4989C9E6227701BF0090CB4E /* RegexHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989C9E5227701BF0090CB4E /* RegexHelper.swift */; };
+		49942BAD2216B4C100FCDFC5 /* ToloTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49942BAC2216B4C100FCDFC5 /* ToloTabBarViewController.swift */; };
+		499907E1223BB0D300608B0D /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499907E0223BB0D300608B0D /* PrivacyViewController.swift */; };
+		499907E3223BCAE800608B0D /* KMProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499907E2223BCAE800608B0D /* KMProgressHUD.swift */; };
+		49DB0850221E83FF00876105 /* PostsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB084F221E83FF00876105 /* PostsDetailViewController.swift */; };
+		49DB0853221E903200876105 /* LikerTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB0852221E903200876105 /* LikerTopCollectionViewCell.swift */; };
+		49DB0857221EE00700876105 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB0856221EE00700876105 /* CommentTableViewCell.swift */; };
+		B318B507218AA01900C0A4C4 /* UIImagePickerController + Crop Fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318B506218AA01900C0A4C4 /* UIImagePickerController + Crop Fix.swift */; };
+		B318B509218C0FD200C0A4C4 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318B508218C0FD200C0A4C4 /* PostsTableViewController.swift */; };
+		B318B50B218C110B00C0A4C4 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318B50A218C110B00C0A4C4 /* PostsTableViewCell.swift */; };
+		B33BB2D62144030800FF338F /* UIViewController + Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BB2D52144030800FF338F /* UIViewController + Alerts.swift */; };
+		B357CB7D21A6EF4200ED3F07 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B357CB7C21A6EF4200ED3F07 /* Post.swift */; };
+		B36A9C532156B0D400CD7E76 /* UIImage+ImageCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36A9C522156B0D400CD7E76 /* UIImage+ImageCompression.swift */; };
+		B36C64722142532F00DE06AE /* UIColor+ToloColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C64712142532E00DE06AE /* UIColor+ToloColors.swift */; };
+		B38F04222183466600C9F06A /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F04212183466600C9F06A /* WalkthroughPageViewController.swift */; };
+		B39DF15A2150F97500AAEE4F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DF1592150F97500AAEE4F /* RegisterViewController.swift */; };
+		B39DF15F2150FA5A00AAEE4F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DF15E2150FA5A00AAEE4F /* TabBarController.swift */; };
+		B39DF16B2150FF3200AAEE4F /* Tolo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DF16A2150FF3200AAEE4F /* Tolo.swift */; };
+		B3B1931D21880260001D955C /* WalkthroughPage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1931C21880260001D955C /* WalkthroughPage5ViewController.swift */; };
+		B3B1931F2188045A001D955C /* UIViewController + ButtonHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1931E2188045A001D955C /* UIViewController + ButtonHighlight.swift */; };
+		B3CFBADC213F9108000568D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFBADB213F9108000568D8 /* AppDelegate.swift */; };
+		B3CFBADE213F9108000568D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFBADD213F9108000568D8 /* LoginViewController.swift */; };
+		B3CFBAE1213F9108000568D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CFBADF213F9108000568D8 /* Main.storyboard */; };
+		B3CFBAE3213F9109000568D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CFBAE2213F9109000568D8 /* Assets.xcassets */; };
+		B3CFBAF1213F9109000568D8 /* TolocamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFBAF0213F9109000568D8 /* TolocamTests.swift */; };
+		B3CFBAFC213F9109000568D8 /* TolocamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CFBAFB213F9109000568D8 /* TolocamUITests.swift */; };
+		B3DCC43E2142787B00CEBED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DCC43D2142787B00CEBED5 /* LaunchScreen.storyboard */; };
+		B3DCC44021427FE500CEBED5 /* ViewControllerWithKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DCC43F21427FE500CEBED5 /* ViewControllerWithKeyboard.swift */; };
+		D5C56AEB65BA373FDB52D886 /* Pods_Tolocam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F3544ABF27915F29D2C31A /* Pods_Tolocam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3CFBAED213F9109000568D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CFBAD0213F9108000568D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3CFBAD7213F9108000568D8;
+			remoteInfo = Tolocam;
+		};
+		B3CFBAF8213F9109000568D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CFBAD0213F9108000568D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3CFBAD7213F9108000568D8;
+			remoteInfo = Tolocam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DD8B7C73DB40627346B735E /* Pods-Tolocam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tolocam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tolocam/Pods-Tolocam.release.xcconfig"; sourceTree = "<group>"; };
+		4932C9892226620600EE3398 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		4932C98C2226785800EE3398 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4932C98E22267A7200EE3398 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		4932C9902226850800EE3398 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4932C992222698DB00EE3398 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4932C9962227E1A700EE3398 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		4932C9982227E1D300EE3398 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		4932C99A2227E4A900EE3398 /* FollowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTableViewController.swift; sourceTree = "<group>"; };
+		4932C99D2227E55900EE3398 /* FollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTableViewCell.swift; sourceTree = "<group>"; };
+		4935FB3C2238E47C0053D9ED /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		4935FB3E2238EAC40053D9ED /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		4935FB402239E7A40053D9ED /* meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meow.wav; sourceTree = "<group>"; };
+		4935FB42223A308F0053D9ED /* LikerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikerTableViewCell.swift; sourceTree = "<group>"; };
+		4935FB43223A308F0053D9ED /* LikerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikerTableViewController.swift; sourceTree = "<group>"; };
+		4935FB46223A48950053D9ED /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		4935FB49223A5E2D0053D9ED /* GXUpvoteButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXUpvoteButton.h; sourceTree = "<group>"; };
+		4935FB4A223A5E2D0053D9ED /* GXUpvoteButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXUpvoteButton.m; sourceTree = "<group>"; };
+		493C504722254A1D000790D8 /* ExploreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewController.swift; sourceTree = "<group>"; };
+		493C504922254A43000790D8 /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
+		494272162255FA9C009FB3FE /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		4985A94E222D6EBB00E3EB40 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4985A950222D707100E3EB40 /* ChatsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewController.swift; sourceTree = "<group>"; };
+		4985A953222D757300E3EB40 /* ChatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewCell.swift; sourceTree = "<group>"; };
+		4985A955222D76F500E3EB40 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		4985A957222E62E600E3EB40 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		4989C9E5227701BF0090CB4E /* RegexHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexHelper.swift; sourceTree = "<group>"; };
+		49942BAC2216B4C100FCDFC5 /* ToloTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToloTabBarViewController.swift; sourceTree = "<group>"; };
+		499907E0223BB0D300608B0D /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		499907E2223BCAE800608B0D /* KMProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMProgressHUD.swift; sourceTree = "<group>"; };
+		49DB084F221E83FF00876105 /* PostsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDetailViewController.swift; sourceTree = "<group>"; };
+		49DB0852221E903200876105 /* LikerTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikerTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		49DB0856221EE00700876105 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		7AF82C41A4B222DF7E7CFC56 /* Pods-Tolocam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tolocam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tolocam/Pods-Tolocam.debug.xcconfig"; sourceTree = "<group>"; };
+		B318B506218AA01900C0A4C4 /* UIImagePickerController + Crop Fix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController + Crop Fix.swift"; sourceTree = "<group>"; };
+		B318B508218C0FD200C0A4C4 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		B318B50A218C110B00C0A4C4 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		B33BB2D52144030800FF338F /* UIViewController + Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Alerts.swift"; sourceTree = "<group>"; };
+		B357CB7C21A6EF4200ED3F07 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Tolocam/Model/Post.swift; sourceTree = SOURCE_ROOT; };
+		B36A9C522156B0D400CD7E76 /* UIImage+ImageCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ImageCompression.swift"; sourceTree = "<group>"; };
+		B36C64712142532E00DE06AE /* UIColor+ToloColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ToloColors.swift"; sourceTree = "<group>"; };
+		B38F04212183466600C9F06A /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		B39DF1592150F97500AAEE4F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B39DF15E2150FA5A00AAEE4F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B39DF16A2150FF3200AAEE4F /* Tolo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tolo.swift; sourceTree = "<group>"; };
+		B3B1931C21880260001D955C /* WalkthroughPage5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPage5ViewController.swift; sourceTree = "<group>"; };
+		B3B1931E2188045A001D955C /* UIViewController + ButtonHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + ButtonHighlight.swift"; sourceTree = "<group>"; };
+		B3CFBAD8213F9108000568D8 /* Tolocam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tolocam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFBADB213F9108000568D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3CFBADD213F9108000568D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3CFBAE0213F9108000568D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3CFBAE2213F9109000568D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3CFBAE7213F9109000568D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFBAEC213F9109000568D8 /* TolocamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TolocamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFBAF0213F9109000568D8 /* TolocamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TolocamTests.swift; sourceTree = "<group>"; };
+		B3CFBAF2213F9109000568D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFBAF7213F9109000568D8 /* TolocamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TolocamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CFBAFB213F9109000568D8 /* TolocamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TolocamUITests.swift; sourceTree = "<group>"; };
+		B3CFBAFD213F9109000568D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CFBB09213F9A87000568D8 /* Tolocam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tolocam-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3DCC43D2142787B00CEBED5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3DCC43F21427FE500CEBED5 /* ViewControllerWithKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithKeyboard.swift; sourceTree = "<group>"; };
+		D4F3544ABF27915F29D2C31A /* Pods_Tolocam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tolocam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3CFBAD5213F9108000568D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C56AEB65BA373FDB52D886 /* Pods_Tolocam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFBAE9213F9109000568D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFBAF4213F9109000568D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0C6B8D137C05AC226A267C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AF82C41A4B222DF7E7CFC56 /* Pods-Tolocam.debug.xcconfig */,
+				2DD8B7C73DB40627346B735E /* Pods-Tolocam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FC40E72A97DDFDF8EA8AABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F3544ABF27915F29D2C31A /* Pods_Tolocam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4932C98B2226761200EE3398 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				493C504922254A43000790D8 /* ExploreCollectionViewCell.swift */,
+				4932C98E22267A7200EE3398 /* SearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4932C99C2227E54900EE3398 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4932C99D2227E55900EE3398 /* FollowTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4935FB48223A5E150053D9ED /* GXUpvoteButton */ = {
+			isa = PBXGroup;
+			children = (
+				4935FB49223A5E2D0053D9ED /* GXUpvoteButton.h */,
+				4935FB4A223A5E2D0053D9ED /* GXUpvoteButton.m */,
+			);
+			path = GXUpvoteButton;
+			sourceTree = "<group>";
+		};
+		4985A952222D756000E3EB40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4985A953222D757300E3EB40 /* ChatsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49942BAB2216B48100FCDFC5 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				499907E2223BCAE800608B0D /* KMProgressHUD.swift */,
+				4935FB48223A5E150053D9ED /* GXUpvoteButton */,
+				4932C9892226620600EE3398 /* AlertView.swift */,
+				49942BAC2216B4C100FCDFC5 /* ToloTabBarViewController.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		49DB0851221E900800876105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4935FB42223A308F0053D9ED /* LikerTableViewCell.swift */,
+				B318B50A218C110B00C0A4C4 /* PostsTableViewCell.swift */,
+				49DB0852221E903200876105 /* LikerTopCollectionViewCell.swift */,
+				49DB0856221EE00700876105 /* CommentTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B33BB2D721440E8800FF338F /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				4935FB43223A308F0053D9ED /* LikerTableViewController.swift */,
+				49DB0851221E900800876105 /* View */,
+				B318B508218C0FD200C0A4C4 /* PostsTableViewController.swift */,
+				49DB084F221E83FF00876105 /* PostsDetailViewController.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		B357CB7E21A6EF4F00ED3F07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B357CB7C21A6EF4200ED3F07 /* Post.swift */,
+				4932C9902226850800EE3398 /* User.swift */,
+				4935FB46223A48950053D9ED /* Comment.swift */,
+				494272162255FA9C009FB3FE /* Like.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B36C6470214252FD00DE06AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B36C64712142532E00DE06AE /* UIColor+ToloColors.swift */,
+				B36A9C522156B0D400CD7E76 /* UIImage+ImageCompression.swift */,
+				B3B1931E2188045A001D955C /* UIViewController + ButtonHighlight.swift */,
+				B318B506218AA01900C0A4C4 /* UIImagePickerController + Crop Fix.swift */,
+				B33BB2D52144030800FF338F /* UIViewController + Alerts.swift */,
+				4985A955222D76F500E3EB40 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B38F04202183463A00C9F06A /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				B38F04212183466600C9F06A /* WalkthroughPageViewController.swift */,
+				B3B1931C21880260001D955C /* WalkthroughPage5ViewController.swift */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		B39DF15B2150F9DD00AAEE4F /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				4985A952222D756000E3EB40 /* View */,
+				4985A94E222D6EBB00E3EB40 /* ChatViewController.swift */,
+				4985A950222D707100E3EB40 /* ChatsTableViewController.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		B39DF15C2150F9DF00AAEE4F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4935FB3C2238E47C0053D9ED /* CameraViewController.swift */,
+				4935FB3E2238EAC40053D9ED /* ComposeViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		B39DF15D2150F9E100AAEE4F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4932C99C2227E54900EE3398 /* View */,
+				4932C992222698DB00EE3398 /* ProfileViewController.swift */,
+				4932C9962227E1A700EE3398 /* SettingsTableViewController.swift */,
+				4932C9982227E1D300EE3398 /* ResetPasswordViewController.swift */,
+				4932C99A2227E4A900EE3398 /* FollowTableViewController.swift */,
+				499907E0223BB0D300608B0D /* PrivacyViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B39E18D02142078D00FBDD08 /* Login & Register */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFBADD213F9108000568D8 /* LoginViewController.swift */,
+				B39DF1592150F97500AAEE4F /* RegisterViewController.swift */,
+				B38F04202183463A00C9F06A /* Walkthrough */,
+			);
+			path = "Login & Register";
+			sourceTree = "<group>";
+		};
+		B3B3B0802152A777001B5D4A /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				4932C98B2226761200EE3398 /* View */,
+				493C504722254A1D000790D8 /* ExploreCollectionViewController.swift */,
+				4932C98C2226785800EE3398 /* SearchViewController.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		B3CFBACF213F9108000568D8 = {
+			isa = PBXGroup;
+			children = (
+				B3CFBADA213F9108000568D8 /* Tolocam */,
+				B3CFBAEF213F9109000568D8 /* TolocamTests */,
+				B3CFBAFA213F9109000568D8 /* TolocamUITests */,
+				B3CFBAD9213F9108000568D8 /* Products */,
+				2F0C6B8D137C05AC226A267C /* Pods */,
+				3FC40E72A97DDFDF8EA8AABF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3CFBAD9213F9108000568D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFBAD8213F9108000568D8 /* Tolocam.app */,
+				B3CFBAEC213F9109000568D8 /* TolocamTests.xctest */,
+				B3CFBAF7213F9109000568D8 /* TolocamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3CFBADA213F9108000568D8 /* Tolocam */ = {
+			isa = PBXGroup;
+			children = (
+				4935FB402239E7A40053D9ED /* meow.wav */,
+				49942BAB2216B48100FCDFC5 /* CommonUI */,
+				B3CFBADB213F9108000568D8 /* AppDelegate.swift */,
+				B3CFBADF213F9108000568D8 /* Main.storyboard */,
+				B357CB7E21A6EF4F00ED3F07 /* Model */,
+				B39E18D02142078D00FBDD08 /* Login & Register */,
+				B33BB2D721440E8800FF338F /* Posts */,
+				B3B3B0802152A777001B5D4A /* Explore */,
+				B39DF15C2150F9DF00AAEE4F /* Camera */,
+				B39DF15B2150F9DD00AAEE4F /* Chats */,
+				B39DF15D2150F9E100AAEE4F /* Profile */,
+				B3DCC44121427FF000CEBED5 /* Supporting Files */,
+				B3CFBB09213F9A87000568D8 /* Tolocam-Bridging-Header.h */,
+				B3DCC43D2142787B00CEBED5 /* LaunchScreen.storyboard */,
+				B3CFBAE2213F9109000568D8 /* Assets.xcassets */,
+				B3CFBAE7213F9109000568D8 /* Info.plist */,
+			);
+			path = Tolocam;
+			sourceTree = "<group>";
+		};
+		B3CFBAEF213F9109000568D8 /* TolocamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFBAF0213F9109000568D8 /* TolocamTests.swift */,
+				B3CFBAF2213F9109000568D8 /* Info.plist */,
+			);
+			path = TolocamTests;
+			sourceTree = "<group>";
+		};
+		B3CFBAFA213F9109000568D8 /* TolocamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFBAFB213F9109000568D8 /* TolocamUITests.swift */,
+				B3CFBAFD213F9109000568D8 /* Info.plist */,
+			);
+			path = TolocamUITests;
+			sourceTree = "<group>";
+		};
+		B3DCC44121427FF000CEBED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36C6470214252FD00DE06AE /* Extensions */,
+				B3DCC43F21427FE500CEBED5 /* ViewControllerWithKeyboard.swift */,
+				B39DF15E2150FA5A00AAEE4F /* TabBarController.swift */,
+				B39DF16A2150FF3200AAEE4F /* Tolo.swift */,
+				4985A957222E62E600E3EB40 /* Emoji.swift */,
+				4989C9E5227701BF0090CB4E /* RegexHelper.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3CFBAD7213F9108000568D8 /* Tolocam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CFBB00213F9109000568D8 /* Build configuration list for PBXNativeTarget "Tolocam" */;
+			buildPhases = (
+				608D24422DA5EC461276AF3C /* [CP] Check Pods Manifest.lock */,
+				B3CFBAD4213F9108000568D8 /* Sources */,
+				B3CFBAD5213F9108000568D8 /* Frameworks */,
+				B3CFBAD6213F9108000568D8 /* Resources */,
+				78CF463DF614077138409577 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tolocam;
+			productName = Tolocam;
+			productReference = B3CFBAD8213F9108000568D8 /* Tolocam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3CFBAEB213F9109000568D8 /* TolocamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CFBB03213F9109000568D8 /* Build configuration list for PBXNativeTarget "TolocamTests" */;
+			buildPhases = (
+				B3CFBAE8213F9109000568D8 /* Sources */,
+				B3CFBAE9213F9109000568D8 /* Frameworks */,
+				B3CFBAEA213F9109000568D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3CFBAEE213F9109000568D8 /* PBXTargetDependency */,
+			);
+			name = TolocamTests;
+			productName = TolocamTests;
+			productReference = B3CFBAEC213F9109000568D8 /* TolocamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3CFBAF6213F9109000568D8 /* TolocamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CFBB06213F9109000568D8 /* Build configuration list for PBXNativeTarget "TolocamUITests" */;
+			buildPhases = (
+				B3CFBAF3213F9109000568D8 /* Sources */,
+				B3CFBAF4213F9109000568D8 /* Frameworks */,
+				B3CFBAF5213F9109000568D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3CFBAF9213F9109000568D8 /* PBXTargetDependency */,
+			);
+			name = TolocamUITests;
+			productName = TolocamUITests;
+			productReference = B3CFBAF7213F9109000568D8 /* TolocamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3CFBAD0213F9108000568D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = leo;
+				TargetAttributes = {
+					B3CFBAD7213F9108000568D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					B3CFBAEB213F9109000568D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = B3CFBAD7213F9108000568D8;
+					};
+					B3CFBAF6213F9109000568D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = B3CFBAD7213F9108000568D8;
+					};
+				};
+			};
+			buildConfigurationList = B3CFBAD3213F9108000568D8 /* Build configuration list for PBXProject "Tolocam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3CFBACF213F9108000568D8;
+			productRefGroup = B3CFBAD9213F9108000568D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3CFBAD7213F9108000568D8 /* Tolocam */,
+				B3CFBAEB213F9109000568D8 /* TolocamTests */,
+				B3CFBAF6213F9109000568D8 /* TolocamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3CFBAD6213F9108000568D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4935FB412239E7A40053D9ED /* meow.wav in Resources */,
+				B3DCC43E2142787B00CEBED5 /* LaunchScreen.storyboard in Resources */,
+				B3CFBAE3213F9109000568D8 /* Assets.xcassets in Resources */,
+				B3CFBAE1213F9108000568D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFBAEA213F9109000568D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFBAF5213F9109000568D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		608D24422DA5EC461276AF3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tolocam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CF463DF614077138409577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tolocam/Pods-Tolocam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloudIM/AVOSCloudIM.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MessengerKit/MessengerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/NextGrowingTextView/NextGrowingTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloudIM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessengerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NextGrowingTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tolocam/Pods-Tolocam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3CFBAD4213F9108000568D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499907E3223BCAE800608B0D /* KMProgressHUD.swift in Sources */,
+				4935FB44223A308F0053D9ED /* LikerTableViewCell.swift in Sources */,
+				49942BAD2216B4C100FCDFC5 /* ToloTabBarViewController.swift in Sources */,
+				B318B507218AA01900C0A4C4 /* UIImagePickerController + Crop Fix.swift in Sources */,
+				B357CB7D21A6EF4200ED3F07 /* Post.swift in Sources */,
+				B33BB2D62144030800FF338F /* UIViewController + Alerts.swift in Sources */,
+				4932C9912226850800EE3398 /* User.swift in Sources */,
+				4935FB3D2238E47C0053D9ED /* CameraViewController.swift in Sources */,
+				493C504A22254A43000790D8 /* ExploreCollectionViewCell.swift in Sources */,
+				4935FB47223A48950053D9ED /* Comment.swift in Sources */,
+				4985A954222D757300E3EB40 /* ChatsTableViewCell.swift in Sources */,
+				B3B1931F2188045A001D955C /* UIViewController + ButtonHighlight.swift in Sources */,
+				49DB0850221E83FF00876105 /* PostsDetailViewController.swift in Sources */,
+				B3B1931D21880260001D955C /* WalkthroughPage5ViewController.swift in Sources */,
+				4932C99B2227E4A900EE3398 /* FollowTableViewController.swift in Sources */,
+				4932C98F22267A7200EE3398 /* SearchTableViewCell.swift in Sources */,
+				4932C98A2226620600EE3398 /* AlertView.swift in Sources */,
+				4985A956222D76F500E3EB40 /* DateExtension.swift in Sources */,
+				4932C993222698DB00EE3398 /* ProfileViewController.swift in Sources */,
+				4985A94F222D6EBB00E3EB40 /* ChatViewController.swift in Sources */,
+				B3CFBADE213F9108000568D8 /* LoginViewController.swift in Sources */,
+				B3CFBADC213F9108000568D8 /* AppDelegate.swift in Sources */,
+				B39DF15A2150F97500AAEE4F /* RegisterViewController.swift in Sources */,
+				49DB0853221E903200876105 /* LikerTopCollectionViewCell.swift in Sources */,
+				494272172255FA9C009FB3FE /* Like.swift in Sources */,
+				4932C9972227E1A700EE3398 /* SettingsTableViewController.swift in Sources */,
+				4935FB45223A308F0053D9ED /* LikerTableViewController.swift in Sources */,
+				B318B509218C0FD200C0A4C4 /* PostsTableViewController.swift in Sources */,
+				4932C9992227E1D300EE3398 /* ResetPasswordViewController.swift in Sources */,
+				4935FB4B223A5E2D0053D9ED /* GXUpvoteButton.m in Sources */,
+				B39DF16B2150FF3200AAEE4F /* Tolo.swift in Sources */,
+				4935FB3F2238EAC40053D9ED /* ComposeViewController.swift in Sources */,
+				4985A958222E62E600E3EB40 /* Emoji.swift in Sources */,
+				493C504822254A1D000790D8 /* ExploreCollectionViewController.swift in Sources */,
+				B39DF15F2150FA5A00AAEE4F /* TabBarController.swift in Sources */,
+				B318B50B218C110B00C0A4C4 /* PostsTableViewCell.swift in Sources */,
+				B38F04222183466600C9F06A /* WalkthroughPageViewController.swift in Sources */,
+				B3DCC44021427FE500CEBED5 /* ViewControllerWithKeyboard.swift in Sources */,
+				499907E1223BB0D300608B0D /* PrivacyViewController.swift in Sources */,
+				49DB0857221EE00700876105 /* CommentTableViewCell.swift in Sources */,
+				4932C99E2227E55900EE3398 /* FollowTableViewCell.swift in Sources */,
+				4985A951222D707100E3EB40 /* ChatsTableViewController.swift in Sources */,
+				B36A9C532156B0D400CD7E76 /* UIImage+ImageCompression.swift in Sources */,
+				4989C9E6227701BF0090CB4E /* RegexHelper.swift in Sources */,
+				B36C64722142532F00DE06AE /* UIColor+ToloColors.swift in Sources */,
+				4932C98D2226785800EE3398 /* SearchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFBAE8213F9109000568D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFBAF1213F9109000568D8 /* TolocamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CFBAF3213F9109000568D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFBAFC213F9109000568D8 /* TolocamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3CFBAEE213F9109000568D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3CFBAD7213F9108000568D8 /* Tolocam */;
+			targetProxy = B3CFBAED213F9109000568D8 /* PBXContainerItemProxy */;
+		};
+		B3CFBAF9213F9109000568D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3CFBAD7213F9108000568D8 /* Tolocam */;
+			targetProxy = B3CFBAF8213F9109000568D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3CFBADF213F9108000568D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CFBAE0213F9108000568D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3CFBAFE213F9109000568D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3CFBAFF213F9109000568D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3CFBB01213F9109000568D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF82C41A4B222DF7E7CFC56 /* Pods-Tolocam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NK2JDQHKG;
+				INFOPLIST_FILE = Tolocam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco.federicoli.tolocam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tolocam/Tolocam-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B3CFBB02213F9109000568D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD8B7C73DB40627346B735E /* Pods-Tolocam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NK2JDQHKG;
+				INFOPLIST_FILE = Tolocam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco.federicoli.tolocam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tolocam/Tolocam-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B3CFBB04213F9109000568D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NK2JDQHKG;
+				INFOPLIST_FILE = TolocamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.TolocamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tolocam.app/Tolocam";
+			};
+			name = Debug;
+		};
+		B3CFBB05213F9109000568D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NK2JDQHKG;
+				INFOPLIST_FILE = TolocamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.TolocamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tolocam.app/Tolocam";
+			};
+			name = Release;
+		};
+		B3CFBB07213F9109000568D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NK2JDQHKG;
+				INFOPLIST_FILE = TolocamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.TolocamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tolocam;
+			};
+			name = Debug;
+		};
+		B3CFBB08213F9109000568D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NK2JDQHKG;
+				INFOPLIST_FILE = TolocamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.TolocamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tolocam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3CFBAD3213F9108000568D8 /* Build configuration list for PBXProject "Tolocam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFBAFE213F9109000568D8 /* Debug */,
+				B3CFBAFF213F9109000568D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CFBB00213F9109000568D8 /* Build configuration list for PBXNativeTarget "Tolocam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFBB01213F9109000568D8 /* Debug */,
+				B3CFBB02213F9109000568D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CFBB03213F9109000568D8 /* Build configuration list for PBXNativeTarget "TolocamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFBB04213F9109000568D8 /* Debug */,
+				B3CFBB05213F9109000568D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CFBB06213F9109000568D8 /* Build configuration list for PBXNativeTarget "TolocamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CFBB07213F9109000568D8 /* Debug */,
+				B3CFBB08213F9109000568D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3CFBAD0213F9108000568D8 /* Project object */;
+}
